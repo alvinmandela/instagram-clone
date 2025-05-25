@@ -1,6 +1,10 @@
+p {
+  margin: 0;
+}
+
 .updated-picture {
   width: 468px;
-  height:468px;
+  height: 585px;
 }
 
 .profile-picture {
@@ -13,6 +17,7 @@
 .post-update {
   display: flex;
   flex-direction: column;
+  width: 550px;
 }
 
 .profile-display{
@@ -25,11 +30,6 @@
  
 }
 
-.like {
-  width: 20px;
-  height: 20px;
-}
-
 .middle-photos {
   height: 480px;
   width: 480px;
@@ -39,3 +39,44 @@
   height: 15px;
   width: 15px;
 } 
+
+.tap-area {
+  display: flex;
+}
+
+.like, .comment{
+  width: 20px;
+  height: 20px;
+}
+
+.tag-save {
+  flex:1;
+  align-items: end;
+  width: 50px;
+}
+
+.save {
+  width:26px;
+  height: 24px;
+}
+
+.comment-like-sec{
+  display: flex;
+  align-items: center;
+}
+
+.comment-profile {
+  width:15px;
+  height: 15px;
+  border-radius: 50px;
+}
+
+.number-likes {
+  margin-left: 5px;
+}
+
+.border {
+  border-style: solid;
+  border-width: 1px;
+  width:480px;
+}
