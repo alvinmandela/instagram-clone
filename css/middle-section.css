@@ -1,0 +1,41 @@
+.updated-picture {
+  width: 468px;
+  height:468px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit:cover;
+}
+
+.post-update {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-display{
+  display: flex;
+  position: relative;
+  width:200px;
+}
+
+.updated-post {
+ 
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+}
+
+.middle-photos {
+  height: 480px;
+  width: 480px;
+}
+
+.more-options {
+  height: 15px;
+  width: 15px;
+} 

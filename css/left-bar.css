@@ -1,0 +1,48 @@
+.left-bar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  background-color: white; /* Or whatever your theme is */
+  z-index: 1000;
+}
+
+.icon-category {
+  display: flex;
+  align-content: center;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.icon-category {
+  font-size: 10px;
+}
+
+
+.left-icon-name {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.left-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.display {
+  object-fit: cover;
+  width: 25px;
+  height: 25px;
+  border-width: 4px;
+  border-radius: 100px;
+}
+
+@media (max-width: 768px) {
+  .left-bar {
+    display: none;
+  }
+
+}

@@ -1,0 +1,75 @@
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  object-fit:cover;
+}
+
+.right-bar {
+  width:400px;
+  
+  position: fixed;
+  top:0;
+  right:120px;
+  bottom:0;
+
+  padding-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  line-height: 17px;
+  flex-shrink: 0;
+}
+
+.names {
+  margin-left: 10px;
+  width: 180px;
+}
+
+.name-of-friend {
+  font-weight: 500;
+}
+
+.follow {
+  color: gray;
+  font-size: 12px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.switch {
+  font-size: 12px;
+  flex: 1;
+  color: rgb(9, 72, 207);
+  padding-top: 10px;
+}
+
+.suggestion {
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+  width: 228px;
+}
+
+.see-all {
+  flex:1;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.footer-notes {
+  color: rgb(185, 184, 184);
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.switch, .name-of-friend, .profile-pic {
+   cursor: pointer;
+}
